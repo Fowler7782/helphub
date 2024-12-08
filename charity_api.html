@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpHub - Charity API Integration</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="charity_api.js" defer></script>
+</head>
+<body>
+    <!-- Header with Logo and Navigation -->
+    <header>
+        <h1>HelpHub</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="charities.html">Charities</a>
+            <a href="charity_api.html">Charity API</a>
+        </nav>
+    </header>
+
+    <!-- Main Section for API Data -->
+    <main>
+        <h2>Charity Navigator Data</h2>
+        <p>Discover charities and their missions fetched dynamically from Charity Navigator's API.</p>
+
+        <!-- Loading Indicator -->
+        <div id="loading">Loading charities...</div>
+
+        <!-- Charity List -->
+        <ul id="charityList"></ul>
+    </main>
+</body>
+</html>

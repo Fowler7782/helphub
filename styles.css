@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif; /* Simple, readable font */
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Light background for a clean look */
+    color: #333; /* Dark text for readability */
+}
+
+/* Header */
+header {
+    background-color: #4CAF50; /* Green for a welcoming feel */
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto; /* Center the content */
+}
+
+main h2 {
+    color: #4CAF50;
+}
+
+/* Buttons */
+button, a {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover, a:hover {
+    background-color: #45a049;
+}
+
+/* Forms */
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* Charity API Page Styles */
+#loading {
+    font-style: italic;
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#charityList {
+    list-style: none;
+    padding: 0;
+}
+
+#charityList li {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#charityList h3 {
+    margin: 0 0 10px;
+}
+
+#charityList a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+#charityList a:hover {
+    text-decoration: underline;
+}
+
